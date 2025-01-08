@@ -9,7 +9,6 @@ Tested on a 7-day period in early May 2025, the model forecasted energy producti
 <img width="881" alt="Screenshot 2025-01-08 at 12 57 01" src="https://github.com/user-attachments/assets/055c718c-4d67-4ae8-93c7-286576e50644" />
 
 
-
 ## Model
 Multiple Linear Regression
 
@@ -18,16 +17,19 @@ Multiple Linear Regression
 - Solar Irradiance (W/m2)
 - Month
 - Time of Day
-- Temperature
+- Temperature (Fahreinheit)
+- UV (Unit unknown)
 
 **Outputs:**
 - Next 15-min Solar Production Value (Wh)
+
+There are three MLR models for sunny, cloudy, and very cloudy days (bins were arbitrarily determined based on solar irradiance data). 
 
 Note: In order to forecast future outputs, I feed solar production predictions back into the model. For example, in order to predict the solar production value at 2 timestamps ahead, I first predict the solar production at 1 timestamp ahead, then feed that prediction as the current production value for the prediction at 2 timestamps ahead.
 
 
 ## Data
-**Rooftop PV data:** I acquired Rooftop PV data at 15-minute intervals from the last 2 years. I trained the linear regression model using data from Dec 2022 until April 2024. I tested the model using data from 2 weeks in December 2024.
+**Rooftop PV data:** I acquired Rooftop PV data at 15-minute intervals from the last 2 years. I trained the linear regression model using data from Dec 2022 until April 2024. I tested the model using data from 1 week in May 2024.
 
 **Weather data:** I acquired solar irradiance data at 15-min intervals from [The Weather Scraper](https://github.com/Karlheinzniebuhr/the-weather-scraper) (created by [Karlheinzniebuhr](https://github.com/Karlheinzniebuhr)). 
 
