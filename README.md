@@ -6,7 +6,9 @@ This Python program uses a linear regression model to produce a short-term energ
 ## Initial Results (Unverified)
 Tested on a 7-day period in early May 2025, the model forecasted energy production with 97-99% accuracy (depending on model run).
 
-<img width="1288" alt="Screenshot 2025-01-08 at 13 41 05" src="https://github.com/user-attachments/assets/0211f960-e8ba-4ea9-9b35-dae1ce3e17bd" />
+
+<img width="1060" alt="Screenshot 2025-01-08 at 15 50 06" src="https://github.com/user-attachments/assets/5ab7406f-fd7d-470a-aaaf-74f40518df6a" />
+<img width="1132" alt="Screenshot 2025-01-08 at 15 50 39" src="https://github.com/user-attachments/assets/75796129-7ef6-479b-b0f9-9afd81c3b008" />
 
 
 ## Model
