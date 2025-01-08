@@ -4,4 +4,4 @@
 
 **Weather data:** I acquired solar irradiance data at 15-min intervals from [The Weather Scraper](https://github.com/Karlheinzniebuhr/the-weather-scraper) (created by [Karlheinzniebuhr](https://github.com/Karlheinzniebuhr)).
 
-This was a personal project for an engineering workshop at Boston University, January 2025.
+This was a personal project for an engineering workshop at Boston University, January 2025. 
