@@ -7,18 +7,20 @@ This Python program uses a linear regression model to produce a short-term energ
 
 
 ## Model
-Multi-variable linear regression model
+Multiple Linear Regression
 
 **Inputs:**
 - Current 15-min Solar Production Value (Wh)
 - Solar Irradiance (W/m2)
 - Month
-- Time
+- Time of Day
+- Temperature
 
 **Outputs:**
 - Next 15-min Solar Production Value (Wh)
 
-Note: for forecasting, the predicted solar production value is plugged into the model as the current solar production value. 
+Note: In order to forecast future outputs, I feed solar production predictions back into the model. For example, in order to predict the solar production value at 2 timestamps ahead, I first predict the solar production at 1 timestamp ahead, then feed that prediction as the current production value for the prediction at 2 timestamps ahead.
+
 
 ## Data
 **Rooftop PV data:** I acquired Rooftop PV data at 15-minute intervals from the last 2 years. I trained the linear regression model using data from Dec 2022 until November 2024. I tested the model using data from 2 weeks in December 2024.
