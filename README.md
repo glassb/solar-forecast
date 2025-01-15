@@ -1,6 +1,6 @@
 # Solar Energy Production Forecaster
 
-This Python program generates a short-term energy production forecast for a residential rooftop PV system. The program uses a series of linear regression models that estimates energy production 15 minutes into the future based on current metrics. Predictions are recursivelly fed back to the model to generate a longer term forecast.
+This Python program generates a short-term energy production forecast for a residential rooftop PV system. The program uses a series of linear regression models to estimate energy production 15 minutes into the future based on current metrics. Predictions are recursivelly fed back to the model to generate a longer term forecast.
 
 
 ## Results
