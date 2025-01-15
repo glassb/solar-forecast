@@ -3,8 +3,8 @@
 This Python program uses a linear regression model to produce a short-term energy production forecast for a residential rooftop PV installation. The model uses historical solar energy output information and weather data to produce an estimate for future production values.
 
 
-## Initial Results (Unverified)
-Tested on a 7-day period in early May 2025, the model forecasted energy production with 97-99% accuracy (depending on model run).
+## Results
+Tested on a 7-day period in early May 2025, the model forecasted total energy production with 97-99% accuracy (depending on model run).
 
 
 <img width="1060" alt="Screenshot 2025-01-08 at 15 50 06" src="https://github.com/user-attachments/assets/5ab7406f-fd7d-470a-aaaf-74f40518df6a" />
